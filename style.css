@@ -149,6 +149,7 @@ nav .navLink li a{
 }
 .recipie-sec h1{
     margin-top: 3rem;
+    font-size: 33px;
     text-align: center;
 }
 .recipie-sec p{
@@ -204,3 +205,51 @@ nav .navLink li a{
     padding-bottom: 10px;
 }
 /* feed */
+.feed{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+.feed .feed_card{
+    width: 30%;
+    text-align: center;
+}
+.feed .feed_card h1{
+    color: black;
+    font-size: 33px;
+    font-weight: 700;
+
+}
+.feed .feed_card p{
+    text-align: center;
+    margin-top: 1rem;
+    color: gray;
+    font-size: 17px;
+}
+footer{
+    margin-top: 4rem;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+footer h1{
+font-size: 30px;
+color: rgb(105, 105, 105);
+font-weight: 400;
+}
+footer span{
+    color: #048af7;
+}
+footer  p{
+    margin-top: 1rem;
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+}
